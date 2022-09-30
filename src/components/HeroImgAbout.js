@@ -11,7 +11,7 @@ const HeroImgAbout = () => {
             src={AboutImg} alt="AboutImg"/>
         </div>
         <div className="content">
-            <h1>Why Akatsuki Business Academy?</h1>
+            <h1>Why Akatsuki Business Academia?</h1>
             <p>
                 Our goal is to motivate and help Georgian students to find their true visions 
                 and not only inspire them but give them an opportunity to build their future with their own hands. 
