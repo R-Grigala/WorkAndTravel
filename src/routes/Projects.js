@@ -3,12 +3,14 @@ import Footer from '../components/Footer';
 
 import React from 'react'
 import HeroImg from '../components/HeroImgProject';
+import WorkCard from '../components/WorkCard';
 
 const Projects = () => {
   return (
     <div>
       <NavBar />
       <HeroImg />
+      <WorkCard />
       <Footer />
     </div>
   )

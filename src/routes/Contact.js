@@ -1,5 +1,6 @@
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import HeroImg from '../components/HeroImgContact';
 
 import React from 'react'
 
@@ -7,6 +8,7 @@ const Contact = () => {
   return (
     <div>
     <NavBar />
+    <HeroImg />
     <Footer />
   </div>
   )

@@ -39,7 +39,7 @@ const Footer = () => {
             <div className="right">
                 <h4>About the company</h4>
                 <p>
-                    Akatsuki Business Academy is the only business organization in Georgia that is a partner of CIEE 
+                    Akatsuki Business Academia is the only business organization in Georgia that is a partner of CIEE 
                     <p>(Council on international education exchange - CIEE)</p>
                 </p>
                 <div className="social">
