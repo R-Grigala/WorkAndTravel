@@ -20,7 +20,7 @@ const HeroImgHome = () => {
           </h4>
         <h1>Akatsuki Business Academia</h1>
         <div>
-          <Link to="/projects" className="btn">Projects</Link>
+          <Link to="/about" className="btn">About</Link>
           <Link to="/contact" className="btn btn-light">Contact</Link>
         </div>
       </div>
