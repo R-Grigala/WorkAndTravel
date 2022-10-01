@@ -12,7 +12,7 @@ const WorkCard = (props) => {
             <p>{props.text}</p>
             <h4>
                 <span className="author">author:</span>
-                <span className="author-name">Levan Gorgadze</span>
+                <span className="author-name">{props.author}</span>
             </h4>
             
             <div className="post-btns">
