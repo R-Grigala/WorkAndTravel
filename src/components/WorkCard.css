@@ -53,11 +53,34 @@
     padding: 0.5rem 1rem;
 }
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 1140px){
     .post-container {
         max-width: 90%;
         margin: auto;
         grid-gap: 20%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 5rem;
+
+    }
+}
+
+@media screen and (max-width: 840px){
+    .post-container {
+        max-width: 90%;
+        margin: auto;
+        grid-gap: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 5rem;
+
+    }
+}
+
+@media screen and (max-width: 540px){
+    .post-container {
+        max-width: 90%;
+        margin: auto;
 
         grid-template-columns: 1fr;
     }
