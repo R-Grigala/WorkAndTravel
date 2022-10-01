@@ -8,8 +8,8 @@ import WorkCardData from "./WorkCardData";
 const Work = () => {
   return (
     <div className="work-container">
-        {/* <h1 className="project-heading">Posts</h1> */}
-        <div className="project-container">
+        <h1 className="post-heading">Posts</h1>
+        <div className="post-container">
             {WorkCardData.map((val, index) => {
                 return(
                     <WorkCard 

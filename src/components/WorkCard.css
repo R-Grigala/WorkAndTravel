@@ -1,9 +1,9 @@
-.project-heading {
+.post-heading {
     text-align: center;
     padding: 2rem 0 1rem 0;
 }
 
-.project-container {
+.post-container {
     max-width: 1040px;
     margin: auto;
     display: grid;
@@ -12,49 +12,49 @@
     padding-bottom: 5rem;
 }
 
-.project-card {
+.post-card {
     background: #1a1919;
     padding: 0.5rem 1rem;
 }
 
-.project-card img {
+.post-card img {
     width: 100%;
 }
 
-.project-title {
+.post-title {
     color: #fff;
     padding: 1rem 0;
 }
 
-.proj-details p {
+.post-details p {
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
     padding: 1rem 0;
 }
-.proj-details .author {
+.post-details .author {
     padding-bottom: 1rem;
     padding-right: 5%;
     font-size: 1.1rem;
 }
-.proj-details .author-name {
+.post-details .author-name {
     padding-bottom: 1rem;
     text-align: end;
     font-size: 1.1rem;
 }
 
-.proj-btns {
+.post-btns {
     display: flex;
     justify-content: space-around;
     padding: 0.5rem 0;
 }
 
-.proj-btns .btn {
+.post-btns .btn {
     padding: 0.5rem 1rem;
 }
 
 @media screen and (max-width: 740px){
-    .project-container {
+    .post-container {
         max-width: 90%;
         margin: auto;
 
