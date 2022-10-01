@@ -10,7 +10,7 @@ export const ContactUs = () => {
   const form = useRef();
 
   const success = () => {
-    toast.success('🦄 Wow so easy!', {
+    toast.success('Email has been sent successfully', {
       position: "top-right",
       theme: "dark",
       autoClose: 3000,
