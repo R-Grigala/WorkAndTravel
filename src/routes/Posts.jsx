@@ -2,10 +2,10 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 
 import React from 'react'
-import HeroImg from '../components/HeroImgProject';
-import Work from '../components/Work';
+import HeroImg from '../components/Posts/HeroImgPosts';
+import Work from '../components/Blog/Work';
 
-const Projects = () => {
+const Posts = () => {
   return (
     <div>
       <NavBar />
@@ -16,4 +16,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Posts

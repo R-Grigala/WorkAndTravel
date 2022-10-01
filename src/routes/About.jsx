@@ -1,19 +1,19 @@
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
-import HeroImg from '../components/HeroImgContact';
 
 import React from 'react'
-import ContactUs from '../components/ContactUs';
+import HeroImg from '../components/About/HeroImgAbout';
+import AboutContent from '../components/About/AboutContent';
 
-const Contact = () => {
+const About = () => {
   return (
     <div>
     <NavBar />
     <HeroImg />
-    <ContactUs />
+    <AboutContent />
     <Footer />
   </div>
   )
 }
 
-export default Contact
+export default About

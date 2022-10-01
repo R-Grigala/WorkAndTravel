@@ -1,14 +1,14 @@
-import "./HeroImgContact.css"
+import "./HeroImgProject.css"
 
 import React from 'react'
-import HeroImg from "../assets/Contact-img.jpg"
+import ProjectImg from "../../assets/Images/Project-img.jpg"
 
-const HeroImgContact = () => {
+const HeroImgProject = () => {
   return (
     <div className="hero-img">
         <div className="mask">
-            <img className="contact-img"
-            src={HeroImg} alt="ContactImg"/>
+            <img className="project-img"
+            src={ProjectImg} alt="ProjectImg"/>
         </div>
         <div className="heading">
             <h1>This is a heading</h1>
@@ -18,4 +18,4 @@ const HeroImgContact = () => {
   )
 }
 
-export default HeroImgContact
+export default HeroImgProject
