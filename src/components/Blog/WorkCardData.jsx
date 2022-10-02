@@ -1,5 +1,5 @@
 
-import ProjCard1 from "../../assets/Images/Post-card1.jpg";
+import ProjCard1 from "../../assets/images/Post-card1.jpg";
 
 const ProjectCardData = [
     {

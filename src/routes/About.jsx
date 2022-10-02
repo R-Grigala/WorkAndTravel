@@ -2,8 +2,8 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 
 import React from 'react'
-import HeroImg from '../components/About/HeroImgAbout';
-import AboutContent from '../components/About/AboutContent';
+import HeroImg from '../pages/About/HeroImgAbout';
+import AboutContent from '../pages/About/AboutContent';
 
 const About = () => {
   return (

@@ -2,7 +2,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 
 import React from 'react'
-import HeroImg from '../components/Posts/HeroImgPosts';
+import HeroImg from '../pages/Posts/HeroImgPosts';
 import Work from '../components/Blog/Work';
 
 const Posts = () => {

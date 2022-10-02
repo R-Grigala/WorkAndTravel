@@ -3,8 +3,8 @@ import Footer from '../components/Footer';
 
 import React from 'react'
 
-import HeroImg from '../components/Contact/HeroImgContact';
-import ContactUs from '../components/Contact/ContactUs';
+import HeroImg from '../pages/Contact/HeroImgContact';
+import ContactUs from '../pages/Contact/ContactUs';
 
 const Contact = () => {
   return (
