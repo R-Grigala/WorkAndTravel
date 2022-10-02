@@ -3,14 +3,14 @@ import Footer from '../components/footer/Footer';
 
 import React from 'react'
 import HeroImg from '../pages/Posts/HeroImgPosts';
-import Work from '../components/Blog/Work';
+import Post from '../components/post/Post'
 
 const Posts = () => {
   return (
     <div>
       <NavBar />
       <HeroImg />
-      <Work />
+      <Post />
       <Footer />
     </div>
   )

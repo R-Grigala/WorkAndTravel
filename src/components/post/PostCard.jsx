@@ -1,15 +1,15 @@
-import "./WorkCard.css"
+import "./PostCard.css"
 
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-const WorkCard = (props) => {
+const PostCard = (props) => {
   return (
     <div className="post-card">
         <h2 className="post-title">{props.title}</h2>
-        <img src={props.imgsrc} alt="post-card-img" />
+        <img src={props.cover} alt="post-card-img" />
         <div className="post-details">
-            <p>{props.text}</p>
+            <p>{props.desc.slice(0, 119)}...</p>
             <h4>
                 <span className="author">author:</span>
                 <span className="author-name">{props.author}</span>
@@ -27,4 +27,4 @@ const WorkCard = (props) => {
   )
 }
 
-export default WorkCard
+export default PostCard

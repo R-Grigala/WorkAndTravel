@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../components/navbar/NavBar';
 import HeroImg from '../pages/Home/HeroImgHome';
 import Footer from '../components/footer/Footer';
-import Work from '../components/Blog/Work';
+import Post from '../components/post/Post';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
         
         {/* HeroImg ის გამოძახება რომელიც background აჩვენებს */}
         <HeroImg />
-        <Work />
+        <Post />
         <Footer />
 
     </div>

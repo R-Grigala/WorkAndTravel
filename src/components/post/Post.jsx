@@ -1,22 +1,22 @@
-import "./WorkCard.css"
+import "./PostCard.css"
 
 import React from 'react';
 
-import WorkCard from "./WorkCard";
-import WorkCardData from "./WorkCardData";
+import PostCard from "./PostCard";
+import { blog} from "../../assets/data/data";
 
-const Work = () => {
+const Post = () => {
   return (
     <div className="work-container">
         <h1 className="post-heading">Posts</h1>
         <div className="post-container">
-            {WorkCardData.map((val, index) => {
+            {blog.map((val, index) => {
                 return(
-                    <WorkCard 
+                    <PostCard 
                     key={index}
-                    imgsrc={val.imgsrc}
+                    cover={val.cover}
                     title={val.title}
-                    text={val.text}
+                    desc={val.desc}
                     author={val.author}
                     />
                 )
@@ -27,4 +27,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Post
