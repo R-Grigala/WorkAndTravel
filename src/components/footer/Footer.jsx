@@ -39,7 +39,7 @@ const Footer = () => {
             <div className="right">
                 <h4>About the company</h4>
                 <p>
-                    Akatsuki Business Academia is the only business organization from Georgia
+                    Akatsuki Business Academia is business organization from Georgia
                 </p>
                 <div className="social">
                 <FaFacebook size={30} style={{color:"#fff", marginRight: "2rem" }}/>

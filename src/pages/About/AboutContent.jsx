@@ -9,7 +9,7 @@ const AboutContent = () => {
         <div className="left">
             <h1>Who Am We?</h1>
             <p>
-                Akatsuki Business Academia is the only business organization in Georgia that is a partner of CIEE
+                Akatsuki Business Academia is business organization from Georgia
             </p>
             <Link to="/contact">
                 <button className="btn">Contact</button>
