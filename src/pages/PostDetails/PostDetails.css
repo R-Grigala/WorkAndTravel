@@ -24,12 +24,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: rgb(0, 0, 0);
     opacity: 0.8;
 }
 
-.hero-details .content {
-    position:absolute;
+.hero-details .content-details {
+    position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     bottom: -20%;
@@ -37,26 +37,25 @@
     right: -20%;
 }
 
-.hero-details .content h1{
+.hero-details .content-details h1{
     font-size: 2rem;
     padding: 0.6rem 0 1.5rem;
     text-align: center;
-    margin-bottom: 2% ;
 }
 
-.hero-details .content p {
+.hero-details .content-details p {
     font-size: 1.4rem;
     text-align: center;
 }
 
-.hero-details .content h4 {
+.hero-details .content-details h4 {
     font-size: 1.4rem;
+    padding-top: 1rem;
     text-align: right;
-    padding: 5%;
 }
 
 @media screen and (max-width:640px) {
-    .hero-details .content {
+    .hero-details .content-details {
         position: absolute;
         transform: translate(-50%, -50%);
         top: 50%;
@@ -64,11 +63,11 @@
         left: 50%;
         right: -40%;
     }
-    .hero-details .content h1{
+    .hero-details .content-details h1{
         font-size: 1.4rem;
     }
     
-    .hero-details .content p{
+    .hero-details .content-details p{
         font-size: 1rem;
     }
     

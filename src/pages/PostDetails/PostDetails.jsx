@@ -21,22 +21,24 @@ const PostDetails = () => {
     return (
         <>
             {bloges ? (
-                <div>
+                <>
                     <Navbar />
                     <div className="hero-details">
                         <div className="mask-details">
                             <img className="details-img"
                             src={bloges.cover} alt="BlogImg"/>
                         </div>
-                        <div className="content">
+                        <div className="content-details">
                             <h1>{bloges.title}</h1>
                             <p>{bloges.desc}</p>
                             <h4>author:&emsp;{bloges.author}</h4>
                         </div>
+                        <div className='foter-container'>
                         <Footer/>
+                        </div>
                     </div>
                     
-                </div>
+                </>
             ) : null }
         </>
   )
