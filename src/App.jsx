@@ -4,7 +4,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import { Route, Routes } from "react-router-dom";
-import Posts from "./routes/Posts";
+import PostDetails from "./pages/PostDetails/PostDetails"
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />}/>
       <Route path="/contact" element={<Contact />}/>
-      <Route path="/posts" element={<Posts />}/>
+      <Route path='/posts/:id' element={<PostDetails />} />
     </Routes>
     </>
   );

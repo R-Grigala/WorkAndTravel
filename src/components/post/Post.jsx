@@ -7,17 +7,18 @@ import { blog} from "../../assets/data/data";
 
 const Post = () => {
   return (
-    <div className="work-container">
+    <div className="posts-container">
         <h1 className="post-heading">Posts</h1>
         <div className="post-container">
-            {blog.map((val, index) => {
+            {blog.map((item, index) => {
                 return(
                     <PostCard 
                     key={index}
-                    cover={val.cover}
-                    title={val.title}
-                    desc={val.desc}
-                    author={val.author}
+                    id={item.id}
+                    cover={item.cover}
+                    title={item.title}
+                    desc={item.desc}
+                    author={item.author}
                     />
                 )
             })
