@@ -26,12 +26,12 @@ const PostDetails = () => {
                     <div className="hero-details">
                         <div className="mask-details">
                             <img className="details-img"
-                            src={bloges.cover} alt="IntroImg"/>
+                            src={bloges.cover} alt="BlogImg"/>
                         </div>
                         <div className="content">
                             <h1>{bloges.title}</h1>
                             <p>{bloges.desc}</p>
-                            <h4>author:{bloges.author}</h4>
+                            <h4>author:&emsp;{bloges.author}</h4>
                         </div>
                         <Footer/>
                     </div>
