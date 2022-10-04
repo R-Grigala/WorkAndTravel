@@ -24,12 +24,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.904);
     opacity: 0.8;
 }
 
 .hero-details .content-details {
-    position: absolute;
+    position:absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     bottom: -20%;
@@ -41,6 +41,7 @@
     font-size: 2rem;
     padding: 0.6rem 0 1.5rem;
     text-align: center;
+    margin-bottom: 2% ;
 }
 
 .hero-details .content-details p {
@@ -48,13 +49,62 @@
     text-align: center;
 }
 
-.hero-details .content-details h4 {
+.hero-details .content h4 {
     font-size: 1.4rem;
-    padding-top: 1rem;
     text-align: right;
+    padding: 5%;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:1390px) {
+    .hero-details .content-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        bottom: -20%;
+        left: 50%;
+        right: -40%;
+    }
+    .hero-details .content-details h1{
+        font-size: 1.5rem;
+    }
+    
+    .hero-details .content-details p{
+        font-size: 1.3rem;
+    }
+
+    .hero-details .content-details h4 {
+        font-size: 1.4rem;
+        text-align: right;
+        padding: 2%;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .hero-details .content-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 49%;
+        bottom: -20%;
+        left: 50%;
+        right: -40%;
+    }
+    .hero-details .content-details h1{
+        font-size: 1.5rem;
+    }
+    
+    .hero-details .content-details p{
+        font-size: 1.2rem;
+    }
+
+    .hero-details .content-details h4 {
+        font-size: 1.4rem;
+        text-align: right;
+        padding: 2%;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
     .hero-details .content-details {
         position: absolute;
         transform: translate(-50%, -50%);
@@ -70,5 +120,136 @@
     .hero-details .content-details p{
         font-size: 1rem;
     }
+
+    .hero-details .content-details h4 {
+        font-size: 1.4rem;
+        text-align: right;
+        padding: 2%;
+    }
     
+}
+
+@media screen and (max-width:700px) {
+    .hero-details .content-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 49%;
+        bottom: -20%;
+        left: 50%;
+        right: -40%;
+    }
+    .hero-details .content-details h1{
+        font-size: 1.4rem;
+    }
+    
+    .hero-details .content-details p{
+        font-size: 1.1rem;
+    }
+
+    .hero-details .content-details h4 {
+        font-size: 1.1rem;
+        text-align: right;
+        padding: 2%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .hero-details .content-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        bottom: -20%;
+        left: 50%;
+        right: -40%;
+    }
+    .hero-details .content-details h1{
+        font-size: 1.4rem;
+    }
+    
+    .hero-details .content-details p{
+        font-size: 1rem;
+    }
+
+    .hero-details .content-details h4 {
+        font-size: 1.4rem;
+        text-align: right;
+        padding: 2%;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .hero-details .content-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 49%;
+        bottom: -20%;
+        left: 50%;
+        right: -40%;
+    }
+    .hero-details .content-details h1{
+        font-size: 1.3rem;
+    }
+    
+    .hero-details .content-details p{
+        font-size: 0.9rem;
+    }
+
+    .hero-details .content-details h4 {
+        font-size: 0.9rem;
+        text-align: right;
+        padding: 2%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .hero-details .content-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 48%;
+        bottom: -20%;
+        left: 50%;
+        right: -40%;
+    }
+    .hero-details .content-details h1{
+        font-size: 1.2rem;
+    }
+    
+    .hero-details .content-details p{
+        font-size: 0.8rem;
+    }
+
+    .hero-details .content-details h4 {
+        font-size: 0.8rem;
+        text-align: right;
+        padding: 2%;
+    }
+
+}
+
+@media screen and (max-width:300px) {
+    .hero-details .content-details {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 46%;
+        bottom: -20%;
+        left: 50%;
+        right: -40%;
+    }
+    .hero-details .content-details h1{
+        font-size: 1.1rem;
+    }
+    
+    .hero-details .content-details p{
+        font-size: 0.65rem;
+    }
+
+    .hero-details .content-details h4 {
+        font-size: 0.65rem;
+        text-align: right;
+        padding: 2%;
+    }
+
 }
