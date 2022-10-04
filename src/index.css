@@ -14,7 +14,9 @@ body {
 h1,
 h4,
 p,
-a{
+a,
+tr,
+th{
   color: #fff;
   text-decoration: none;
 }

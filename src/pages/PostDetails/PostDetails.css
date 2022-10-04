@@ -24,12 +24,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: rgba(0, 0, 0, 0.9);
     opacity: 0.8;
 }
 
 .hero-details .content-details {
-    position:absolute;
+    position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     bottom: -20%;
@@ -168,11 +168,11 @@
     }
     
     .hero-details .content-details p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .hero-details .content-details h4 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-align: right;
         padding: 2%;
     }
@@ -193,11 +193,11 @@
     }
     
     .hero-details .content-details p{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .hero-details .content-details h4 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         text-align: right;
         padding: 2%;
     }
@@ -218,11 +218,11 @@
     }
     
     .hero-details .content-details p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .hero-details .content-details h4 {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: right;
         padding: 2%;
     }
@@ -243,7 +243,7 @@
     }
     
     .hero-details .content-details p{
-        font-size: 0.65rem;
+        font-size: 0.5rem;
     }
 
     .hero-details .content-details h4 {

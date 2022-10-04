@@ -5,7 +5,7 @@ import AboutImg from "../../assets/images/About-img.jpg"
 
 const HeroImgAbout = () => {
   return (
-    <div className="hero">
+    <div className="hero-about">
         <div className="mask">
             <img className="about-img"
             src={AboutImg} alt="AboutImg"/>
