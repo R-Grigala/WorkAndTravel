@@ -12,7 +12,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_0vn7ppa', 'template_sxkp2cn', form.current, 'rbK2QReL4stHDFvXV')
+    emailjs.sendForm('service_2q9msjd', 'template_e2u8b5n', form.current, '2y5pzCnisTfUVtXCb')
       .then((result) => {
         toast.success('Email has been sent successfully', {
           position: "top-right",
@@ -26,7 +26,7 @@ export const ContactUs = () => {
           });
         e.target.reset();
       }, (error) => {
-        toast.error("Dont sent yuor email", {
+        toast.error("Dont sent your email", {
           position: "top-right",
           autoClose: 3000,
           hideProgressBar: false,

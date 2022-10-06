@@ -45,12 +45,12 @@
 }
 
 .hero-details .content-details p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
 .hero-details .content-details h4 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: right;
     padding: 5%;
 }
@@ -69,11 +69,11 @@
     }
     
     .hero-details .content-details p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .hero-details .content-details h4 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-align: right;
         padding: 2%;
     }
@@ -89,15 +89,15 @@
         right: -40%;
     }
     .hero-details .content-details h1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     
     .hero-details .content-details p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .hero-details .content-details h4 {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         text-align: right;
         padding: 2%;
     }
@@ -114,7 +114,7 @@
         right: -40%;
     }
     .hero-details .content-details h1{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     
     .hero-details .content-details p{
@@ -143,7 +143,7 @@
     }
     
     .hero-details .content-details p{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     .hero-details .content-details h4 {
@@ -218,7 +218,7 @@
     }
     
     .hero-details .content-details p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .hero-details .content-details h4 {
@@ -243,11 +243,11 @@
     }
     
     .hero-details .content-details p{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
 
     .hero-details .content-details h4 {
-        font-size: 0.65rem;
+        font-size: 0.55rem;
         text-align: right;
         padding: 2%;
     }
