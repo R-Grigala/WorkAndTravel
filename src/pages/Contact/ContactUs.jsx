@@ -43,9 +43,9 @@ export const ContactUs = () => {
     <ToastContainer />
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" placeholder="Type your Name here"/>
+      <textarea type="text" name="user_name" rows="1" placeholder="Type your Name here"/>
       <label>Email</label>
-      <input type="email" name="user_email" placeholder="Type your Email here"/>
+      <textarea type="email" name="user_email" rows="1" placeholder="Type your Email here"/>
       <label>Message</label>
       <textarea name="message" rows="6" placeholder="Type your Message here"/>
       <input className="btn" type="submit" value="Send" />
