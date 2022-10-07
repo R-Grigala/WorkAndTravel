@@ -4,6 +4,7 @@ import React, {useState} from 'react'
 import { Link } from "react-router-dom";
 
 import { FaBars,FaTimes } from 'react-icons/fa';
+import logo from "../../assets/images/logo512.png"
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
@@ -24,7 +25,7 @@ const Navbar = () => {
         <div className={color ? "header header-bg" : "header"}>
             {/* Logo-ს ლინკად გარდაქმნა რომ შევძლოთ Home გვერდზე დაბრუნება დაკლიკების შემთხვევაში */}
             <Link to="/">
-                <h1>Akatsuki</h1>
+                <h1>ABacademia</h1>
             </Link>
             {/* თითოეულ გვერდზე გადასასვლელი ღილაკები */}
             <ul className={click ? "nav-menu active" : "nav-menu"}>
