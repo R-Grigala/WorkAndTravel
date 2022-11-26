@@ -29,6 +29,7 @@
 }
 
 .hero-img .heading {
+    padding-top: 100px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 30%;
@@ -62,8 +63,12 @@ tr {
 
 
 @media screen and (max-width:640px) {
+
+    .hero-img .heading {
+        padding-top: 200px;
+    }
     .hero-img .heading h1{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     
     .hero-img .heading p{
@@ -76,7 +81,7 @@ tr {
     
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:320px) {
     .hero-img table tr th{
         font-size: 0.5rem;
     }

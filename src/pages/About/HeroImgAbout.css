@@ -29,6 +29,7 @@
 }
 
 .hero-about .content {
+    padding-top: 20px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -46,6 +47,25 @@
 .hero-about .content p {
     font-size: 1.7rem;
     text-align: center;
+}
+@media screen and (max-width:1000px) {
+    .hero-about .content {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        bottom: -20%;
+        left: 50%;
+        right: -40%;
+    }
+    .hero-about .content h1{
+        font-size: 1.3rem;
+        padding: 0.6rem 0 0.5rem;
+    }
+    
+    .hero-about .content p{
+        font-size: 1.5rem;
+    }
+    
 }
 
 @media screen and (max-width:740px) {

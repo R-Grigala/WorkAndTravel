@@ -56,9 +56,45 @@
     margin: 1rem 0.2rem;
 }
 
-@media screen and (max-width:640px) {
-    .hero .content h1{
+@media screen and (max-width:1024px) {
+    .hero .content {
+        padding-top: 100px;
+    }
+    .hero .content h4 span{
+        font-size: 1.6rem;
+    }
+
+    .hero .content h4{
+        font-size: 1.3rem;
+    }
+    
+    
+}
+
+@media screen and (max-width:770px) {
+    .hero .content {
+        padding-top: 100px;
+    }
+    .hero .content h4 span{
         font-size: 1.4rem;
+    }
+
+    .hero .content h4{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media screen and (max-width:580px) {
+    .hero .content {
+        padding-top: 100px;
+    }
+    .hero .content h4 span{
+        font-size: 1.3rem;
+    }
+
+    .hero .content h4{
+        font-size: 1rem;
     }
     
     .hero .content p{
