@@ -12,7 +12,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_2q9msjd', 'template_e2u8b5n', form.current, '2y5pzCnisTfUVtXCb')
+    emailjs.sendForm('service_2q9msjd', 'template_bydsl9m', form.current, '2y5pzCnisTfUVtXCb')
       .then((result) => {
         toast.success('Email has been sent successfully', {
           position: "top-right",
