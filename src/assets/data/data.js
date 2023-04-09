@@ -1,4 +1,4 @@
-import PostCard1 from "../images/Post-card1.jpg"
+import PostCard1 from "../images/Post-card1.webp"
 export const blog = [
     {
     id: 1,

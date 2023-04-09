@@ -1,7 +1,7 @@
 import "./HeroImgAbout.css"
 
 import React from 'react'
-import AboutImg from "../../assets/images/About-img.jpg"
+import AboutImg from "../../assets/images/About-img.webp"
 
 const HeroImgAbout = () => {
   return (

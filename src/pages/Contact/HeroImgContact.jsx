@@ -1,7 +1,7 @@
 import "./HeroImgContact.css"
 
 import React from 'react'
-import HeroImg from "../../assets/images/Contact-img.jpg"
+import HeroImg from "../../assets/images/Contact-img.webp"
 
 import { 
   FaHome, 
